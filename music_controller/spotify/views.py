@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .credentials import REDIRECT_URI, CLIENT_ID, CLIENT_SECRET
+from .hidden import REDIRECT_URI, CLIENT_ID, CLIENT_SECRET
 from rest_framework.views import APIView
 from requests import Request, post
 from rest_framework import status
